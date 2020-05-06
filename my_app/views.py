@@ -44,11 +44,7 @@ def new_search(request):
         else:
             post_image_url = "https://craigslist.org/images/peace.jpg"
 
-
         final_postings.append((post_title, post_url, post_price, post_image_url))
-
-
-
 
     #print(post_title, post_url, post_price)
 
