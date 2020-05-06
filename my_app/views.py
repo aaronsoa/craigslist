@@ -27,6 +27,8 @@ def new_search(request):
 
     final_postings = []
 
+    #Random Comment
+
     for post in post_listings:
         post_title = post.find(class_='result-title').text
         post_url = post.find('a').get('href')
